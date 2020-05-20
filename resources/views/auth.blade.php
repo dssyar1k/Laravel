@@ -64,21 +64,28 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="flex-left position-ref full-height">
 
 
             <div class="content">
                 <div class="title m-b-md">
-                    Добро пожаловать!
+                    Авторизация
                 </div>
 
                 <div class="links">
-                    <a href="/">Главная</a>
+                     <a href="/">Главная</a>
                     <a href="/about">О проекте</a>
                     <a href="/news">Новости</a>
                     <a href="/login">Авторизация</a>
                 </div>
             </div>
+            <p>Введите ваш логин:
+            <input id="login" type="text"></p>
+            <br/>
+            <p>Введите ваш пароль:
+            <input id="password" type="password"></p>
+            <p><input type="checkbox">Запомнить меня</p>
+            <input name="submit" type="submit">
         </div>
     </body>
 </html>

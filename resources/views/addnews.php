@@ -64,21 +64,29 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="flex-left position-ref full-height">
 
 
             <div class="content">
                 <div class="title m-b-md">
-                    Добро пожаловать!
+                    Добавление новостей
                 </div>
 
                 <div class="links">
-                    <a href="/">Главная</a>
+                     <a href="/">Главная</a>
                     <a href="/about">О проекте</a>
                     <a href="/news">Новости</a>
                     <a href="/login">Авторизация</a>
                 </div>
             </div>
+            <p>Название новости:
+            <input id="news_title" type="text"></p>
+            <br/>
+            <p>Краткое описание новости:
+            <input id="news_shorttext" type="text"></p>
+            <p>Подробное описание новости:
+                <textarea id="news_text" type="fieldset"></textarea></p>
+            <input name="submit" type="submit">
         </div>
     </body>
 </html>
